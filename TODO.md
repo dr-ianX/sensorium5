@@ -1,11 +1,9 @@
-# TODO - SENSORIUM5 Website Template
+# TODO - SENSORIUM5 Website Redesign (Future/Space Age)
 
-- [x] Confirmar plan para ONRENDER + GitHub
-- [x] Crear estructura base del proyecto
-- [x] Crear `index.html` con landing page de SENSORIUM5
-- [x] Crear estilos en `css/styles.css`
-- [x] Crear interacciones en `js/main.js`
-- [x] Agregar `.gitignore`
-- [x] Agregar `README.md` con pasos de deploy en www.onrender.com
-- [x] Agregar `render.yaml` opcional para infraestructura como código
-- [x] Marcar tareas como completadas
+- [x] Confirmar nuevo plan creativo y dirección estética
+- [x] Rediseñar `index.html` (contenido conceptual + estructura premium)
+- [x] Rehacer `css/styles.css` (minimal sci-fi negro/blanco/naranja + efectos scroll)
+- [x] Mejorar `js/main.js` (reveal on-scroll, nav activa, microinteracciones)
+- [x] Actualizar `README.md` con descripción de nueva identidad
+- [ ] Testing completo local de flujo visual e interacciones
+- [ ] Si todo está correcto, preparar siguiente push a GitHub

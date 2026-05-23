@@ -1,49 +1,45 @@
-# SENSORIUM5 - Website Template
+# SENSORIUM5 - Molecular Bar Experience
 
-Plantilla estática lista para publicar con **GitHub + Onrender (www.onrender.com)**.
+Sitio conceptual de alta estética para barra de bebidas moleculares con enfoque **Future Age / Space Age**.
+
+## Identidad visual actual
+
+- Estilo: minimalista, impactante y sofisticado.
+- Paleta: negro / blanco con acentos naranja.
+- Narrativa: coctelería molecular + tecnología escénica (videomapping, lasermapping, hologramas).
+- Arquitectura de contenido:
+  - Manifiesto
+  - Menús: **Quark**, **Órbita**, **Fragments of Flavor**
+  - Experiencia escénica
+  - Reservas y colaboraciones
 
 ## Estructura
 
-- `index.html` - página principal
-- `css/styles.css` - estilos
-- `js/main.js` - interacción básica
-- `render.yaml` - configuración opcional de infraestructura para Render/Onrender
+- `index.html` - página principal y narrativa de marca
+- `css/styles.css` - sistema visual minimal sci-fi
+- `js/main.js` - interacciones:
+  - menú responsive
+  - reveal on-scroll (IntersectionObserver)
+  - navegación activa por sección
+  - validación de formulario con feedback
+- `render.yaml` - configuración opcional para despliegue
 - `.gitignore`
 - `TODO.md`
 
 ## Ejecutar localmente
 
-Solo abre `index.html` en tu navegador o usa una extensión tipo Live Server en VS Code.
+Abrir `index.html` en navegador o usar Live Server en VS Code.
 
-## Publicar en Onrender usando GitHub
+## Publicar en Onrender (www.onrender.com)
 
-1. Sube esta carpeta a un repositorio en GitHub.
-2. Entra a **www.onrender.com** e inicia sesión.
-3. Click en **New +** → **Static Site**.
-4. Conecta tu cuenta de GitHub y selecciona el repo.
-5. Configura:
-   - **Build Command**: (vacío)
-   - **Publish Directory**: `.`
-6. Click en **Create Static Site**.
-7. Onrender hará deploy automático.
+1. Crear/usar repo en GitHub.
+2. En Onrender: **New +** → **Static Site**.
+3. Conectar repo.
+4. Configurar:
+   - **Build Command**: vacío (o `echo "static site"` si es obligatorio)
+   - **Publish Directory**: `./`
+5. Crear servicio y esperar deploy.
 
 ## Deploy automático
 
-Cada `git push` a la rama principal vuelve a desplegar el sitio automáticamente.
-
-## Comandos sugeridos para git
-
-```bash
-git init
-git add .
-git commit -m "Initial SENSORIUM5 website template"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/TU_REPO.git
-git push -u origin main
-```
-
-## Próximos pasos recomendados
-
-- Conectar formulario de contacto a Formspree, Resend o backend propio.
-- Agregar dominio personalizado en Onrender.
-- Integrar analítica (Plausible o Google Analytics).
+Cada push a `main` dispara redeploy automático.
