@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SENSORIUM5 - Soluciones creativas, tecnología y experiencias inmersivas." />
+  <title>SENSORIUM5 | Experiencias Digitales</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="logo">SENSORIUM5</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+      <nav id="mainNav" class="main-nav">
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto" class="btn btn-small">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">Innovación + Diseño + Tecnología</p>
+          <h1>Convertimos ideas en experiencias digitales memorables</h1>
+          <p class="lead">
+            En SENSORIUM5 creamos páginas web, identidad visual y soluciones
+            interactivas para marcas que quieren destacar.
+          </p>
+          <div class="hero-cta">
+            <a href="#contacto" class="btn">Trabajemos juntos</a>
+            <a href="#proyectos" class="btn btn-ghost">Ver proyectos</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>¿Qué hacemos?</h3>
+          <ul>
+            <li>Desarrollo de sitios web modernos</li>
+            <li>Dirección creativa y branding</li>
+            <li>Experiencias inmersivas y multimedia</li>
+            <li>Optimización y presencia digital</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="container">
+        <h2>Servicios</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Web Design</h3>
+            <p>Sitios web visualmente impactantes, rápidos y adaptables a móvil.</p>
+          </article>
+          <article class="card">
+            <h3>Desarrollo Frontend</h3>
+            <p>Interfaces interactivas con foco en rendimiento y experiencia de usuario.</p>
+          </article>
+          <article class="card">
+            <h3>Contenido Visual</h3>
+            <p>Dirección de arte y recursos visuales coherentes con tu identidad.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section section-alt">
+      <div class="container">
+        <h2>Proyectos destacados</h2>
+        <div class="projects">
+          <article class="project">
+            <h3>Campaña inmersiva para evento cultural</h3>
+            <p>Landing page + contenido audiovisual + estrategia de conversión.</p>
+          </article>
+          <article class="project">
+            <h3>Website corporativo para estudio creativo</h3>
+            <p>Rediseño completo, SEO básico y optimización para carga rápida.</p>
+          </article>
+          <article class="project">
+            <h3>Portafolio digital para marca personal</h3>
+            <p>Diseño editorial web y arquitectura enfocada en storytelling.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section">
+      <div class="container">
+        <h2>Nosotros</h2>
+        <p>
+          SENSORIUM5 combina sensibilidad artística y visión tecnológica para crear
+          productos digitales que conectan con personas reales.
+        </p>
+      </div>
+    </section>
+
+    <section id="contacto" class="section section-contact">
+      <div class="container">
+        <h2>Contacto</h2>
+        <p>Cuéntanos tu idea y armamos una propuesta a medida.</p>
+        <form class="contact-form" onsubmit="return false;">
+          <input type="text" placeholder="Tu nombre" required />
+          <input type="email" placeholder="Tu email" required />
+          <textarea placeholder="Tu mensaje" rows="4" required></textarea>
+          <button class="btn" id="contactBtn">Enviar</button>
+        </form>
+        <p id="formMsg" class="form-msg" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> SENSORIUM5. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

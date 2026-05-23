@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: sensorium5-site
+    env: static
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: true
