@@ -1,9 +1,8 @@
-# TODO - SENSORIUM5 Website Redesign (Future/Space Age)
+# TODO - SENSORIUM5 Content Re-focus (core: coctelería)
 
-- [x] Confirmar nuevo plan creativo y dirección estética
-- [x] Rediseñar `index.html` (contenido conceptual + estructura premium)
-- [x] Rehacer `css/styles.css` (minimal sci-fi negro/blanco/naranja + efectos scroll)
-- [x] Mejorar `js/main.js` (reveal on-scroll, nav activa, microinteracciones)
-- [x] Actualizar `README.md` con descripción de nueva identidad
-- [ ] Testing completo local de flujo visual e interacciones
-- [ ] Si todo está correcto, preparar siguiente push a GitHub
+- [x] Confirmar ajuste: foco principal en tragos/coctelería
+- [ ] Reescribir `index.html` para priorizar barra molecular y menús
+- [ ] Reducir lo visual-tech a mención secundaria (complementaria)
+- [ ] Ajustar CTA/contacto para reservas y eventos de barra
+- [ ] Testing completo (contenido, navegación, formulario)
+- [ ] Push de actualización a GitHub
